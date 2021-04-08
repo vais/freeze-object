@@ -1,0 +1,33 @@
+{
+  "name": "freeze-object",
+  "version": "1.0.0",
+  "description": "Recursively freeze an object and its properties.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vais/freeze-object.git"
+  },
+  "homepage": "https://github.com/vais/freeze-object",
+  "keywords": [
+    "freeze",
+    "deep",
+    "object",
+    "recursive"
+  ],
+  "author": {
+    "name": "Vais Salikhov",
+    "url": "https://github.com/vais"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "mocha": "^8.3.2",
+    "prettier": "^2.2.1"
+  }
+}
